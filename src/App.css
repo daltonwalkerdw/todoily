@@ -120,6 +120,12 @@ select {
   cursor: pointer;
   width: 12rem;
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class='select'] {
+    display: none;
+  }
+}
 /* Arrow */
 .select::after {
   content: "\25BC";
